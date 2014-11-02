@@ -24,7 +24,7 @@
   "dependencies": {
     "through2": "~0.4.1",
     "gulp-util": "~2.2.14",
-    "crass": "~0.5.1"
+    "crass": "~0.7.2"
   },
   "devDependencies": {
     "mocha": "*",
