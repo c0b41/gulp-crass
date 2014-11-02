@@ -1,14 +1,13 @@
 'use strict';
 
+var crass = require('crass');
 var gutil = require('gulp-util');
 var through = require('through2');
-var crass = require('crass');
 
-module.exports = function(opt){
-    return through.obj(function (file, enc, cb) {
+module.exports = function(opt) {
+    return through.obj(function(file, enc, cb) {
         if (!opt) {
-            opt = {};
-            opt.pretty=true;
+            opt = {pretty: true, o1: true};
         }
 
         if (file.isNull()) {
@@ -21,22 +20,20 @@ module.exports = function(opt){
             return cb();
         }
 
+        try {
+            var parsed = crass.parse(file.contents.toString());
+            parsed = parsed.optimize({O1: !!opt.o1});
+            if (opt.pretty) parsed = parsed.pretty();
+            parsed = parsed.toString();
 
-		 try {
-			var parsed = crass.parse(file.contents.toString());
-		        parsed = parsed.optimize();
-		        if(opt.pretty) parsed = parsed.pretty();
-		        parsed = parsed.toString();
-
-		file.contents = new Buffer(parsed);
-		} catch (err) {
-			this.emit('error', new gutil.PluginError('gulp-crass', err));
-		}
+            file.contents = new Buffer(parsed);
+        } catch (err) {
+            this.emit('error', new gutil.PluginError('gulp-crass', err));
+        }
 
         this.push(file);
 
         return cb();
-
 
     });
 };
