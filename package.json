@@ -1,6 +1,6 @@
 {
   "name": "gulp-crass",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Css optimize",
   "main": "index.js",
   "scripts": {
