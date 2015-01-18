@@ -1,4 +1,4 @@
-# [gulp](https://github.com/wearefractal/gulp)-crass [![Build Status](https://travis-ci.org/cobaimelan/gulp-crass.png?branch=master)](https://travis-ci.org/cobaimelan/gulp-crass)
+# [gulp](https://github.com/gulpjs/gulp)-crass  [![Build Status](https://img.shields.io/david/ayhankuru/gulp-crass.svg?style=flat-square)](https://david-dm.org/ayhankuru/gulp-crass)
 
 > Css files by optimizing utility organizes and removes spaces
 
