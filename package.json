@@ -1,6 +1,6 @@
 {
   "name": "gulp-crass",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Css optimize",
   "main": "index.js",
   "scripts": {
@@ -22,8 +22,8 @@
   },
   "homepage": "https://github.com/cobaimelan/gulp-crass",
   "dependencies": {
-    "through2": "~0.4.1",
-    "gulp-util": "~2.2.14",
+    "through2": "~0.6.3",
+    "gulp-util": "~3.0.2",
     "crass": "~0.7.2"
   },
   "devDependencies": {
