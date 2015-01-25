@@ -1,4 +1,11 @@
-# [gulp](https://github.com/gulpjs/gulp)-crass  [![Build Status](https://img.shields.io/david/ayhankuru/gulp-crass.svg?style=flat-square)](https://david-dm.org/ayhankuru/gulp-crass)
+# [gulp](https://github.com/gulpjs/gulp)-crass  
+
+
+
+[![Build Status](http://img.shields.io/travis/ayhankuru/gulp-crass.svg?style=flat-square)](https://travis-ci.org/ayhankuru/gulp-crass)
+
+[![Build Status](https://img.shields.io/david/ayhankuru/gulp-crass.svg?style=flat-square)](https://david-dm.org/ayhankuru/gulp-crass)
+
 
 > Css files by optimizing utility organizes and removes spaces
 

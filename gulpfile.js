@@ -2,7 +2,7 @@ var gulp = require('gulp'),
     crass = require('./index.js'),
     gutil = require('gulp-util');
 gulp.task('default', function() {
-  return gulp.src('./exam/*.css')
+  return gulp.src('./test/fixtures/*.css')
         .pipe(crass({pretty:false}).on('error',gutil.log))
-        .pipe(gulp.dest('build/'));;
+        .pipe(gulp.dest('test/expected/'));;
 });
