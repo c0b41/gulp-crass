@@ -4,7 +4,7 @@
   "description": "Css optimize",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha test/main.js --reporter spec --timeout 15000"
   },
   "repository": {
     "type": "git",
@@ -27,12 +27,8 @@
     "crass": "~0.7.2"
   },
   "devDependencies": {
-    "mocha": "*",
-    "gulp": "~3.5.1",
     "expect.js": "~0.3.1",
+    "mocha": "~2.1.0",
     "gulp-util": "~3.0.2"
-  },
-   "scripts": {
-    "test": "mocha test/main.js --reporter spec --timeout 15000"
   }
 }
