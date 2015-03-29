@@ -74,3 +74,9 @@ gulp.task('default', function() {
 Type: `Boolean`
 Default: `true`
 
+
+#### options.sourceMap && options.sourcemap
+
+Type: `Boolean`
+Default: `false`
+
