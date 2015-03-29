@@ -4,7 +4,7 @@ var gutil = require('gulp-util');
 var Crass = require('../index.js');
 
 it('GulpCrass Test', function (cb) {
-	var stream = Crass({pretty:false});
+	var stream = Crass({pretty:false,sourceMap:true});
 
 	stream.on('data', function (file) { 
 		expect(file.contents.toString()).to.eql(fs.readFileSync(__dirname + '/expected/index.css').toString());
