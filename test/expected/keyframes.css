@@ -1,0 +1,12 @@
+@-webkit-keyframes foo {
+  0 {
+    ccc: zip;
+    ddd: zap;
+  }
+
+  to {
+    aaa: bar;
+    bbb: foo;
+  }
+
+}

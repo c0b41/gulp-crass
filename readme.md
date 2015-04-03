@@ -5,7 +5,6 @@
 [![Travis Build Status](http://img.shields.io/travis/ayhankuru/gulp-crass.svg?style=flat-square)](https://travis-ci.org/ayhankuru/gulp-crass) [![Circle Build Status](https://img.shields.io/circleci/project/ayhankuru/gulp-crass.svg?style=flat-square)](https://circleci.com/gh/ayhankuru/gulp-crass) [![Appveyor Build Status](https://img.shields.io/appveyor/ci/ayhankuru/gulp-crass.svg?style=flat-square)](https://ci.appveyor.com/project/ayhankuru/gulp-crass) [![Build Status](https://img.shields.io/david/ayhankuru/gulp-crass.svg?style=flat-square)](https://david-dm.org/ayhankuru/gulp-crass) [![io.js supported](https://img.shields.io/badge/io.js-supported-green.svg?style=flat-square)](https://iojs.org)
 
 
-
 > Css files by optimizing utility organizes and removes spaces
 
 Uses the [crass](https://github.com/mattbasta/crass) library.
@@ -74,4 +73,10 @@ gulp.task('default', function() {
 
 Type: `Boolean`
 Default: `true`
+
+
+#### options.sourceMap && options.sourcemap
+
+Type: `Boolean`
+Default: `false`
 
