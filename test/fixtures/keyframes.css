@@ -1,0 +1,8 @@
+@-webkit-keyframes foo{
+	to{
+	bbb:foo;aaa:bar;
+	}
+	from{
+	ccc:zip;ddd:zap
+	}
+}
