@@ -4,7 +4,7 @@
   "description": "Css optimize",
   "main": "index.js",
   "scripts": {
-    "test": "iojs node_modules/mocha/bin/mocha ./test/main.js --reporter spec --timeout 15000"
+    "test": "node node_modules/mocha/bin/mocha ./test/main.js --reporter spec --timeout 15000"
   },
   "repository": {
     "type": "git",
@@ -22,14 +22,14 @@
   },
   "homepage": "https://github.com/cobaimelan/gulp-crass",
   "dependencies": {
-    "crass": "^0.7.5",
-    "csswring": "^3.0.2",
+    "crass": "^0.10.4",
+    "csswring": "^6.0.1",
     "gulp-util": "^3.0.4",
-    "through2": "^0.6.3"
+    "through2": "^2.0.3"
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
     "gulp-util": "^3.0.4",
-    "mocha": "^2.2.1"
+    "mocha": "^4.0.1"
   }
 }
