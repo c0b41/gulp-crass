@@ -1,6 +1,6 @@
 {
   "name": "gulp-crass",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Css optimize",
   "main": "index.js",
   "scripts": {
@@ -8,19 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/cobaimelan/gulp-crass"
+    "url": "git://github.com/c0b41/gulp-crass"
   },
   "keywords": [
     "gulpplugin",
     "optimize",
     "css"
   ],
-  "author": "Ayhan Kuru",
+  "author": "c0b41",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cobaimelan/gulp-crass/issues"
+    "url": "https://github.com/c0b41/gulp-crass/issues"
   },
-  "homepage": "https://github.com/cobaimelan/gulp-crass",
+  "homepage": "https://github.com/c0b41/gulp-crass",
   "dependencies": {
     "crass": "^0.10.4",
     "csswring": "^6.0.1",
@@ -29,6 +29,7 @@
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
+    "gulp": "^3.9.1",
     "gulp-util": "^3.0.4",
     "mocha": "^4.0.1"
   }

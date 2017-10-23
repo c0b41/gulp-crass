@@ -1,6 +1,1 @@
-body {
-  background-color: #ddd;
-}
-body:after {
-  content: "Hello World";
-}
+body{background-color:#ddd}body:after{content:"Hello World"}
