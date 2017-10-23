@@ -1,6 +1,6 @@
 {
   "name": "gulp-crass",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Css optimize",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/c0b41/gulp-crass",
   "dependencies": {
-    "crass": "^0.10.4",
+    "crass": "*",
     "csswring": "^6.0.1",
     "gulp-util": "^3.0.4",
     "through2": "^2.0.3"
